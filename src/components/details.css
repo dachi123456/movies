@@ -1,0 +1,43 @@
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  border: 1px solid gray;
+  width: 23rem;
+  border-radius: 1rem;
+}
+.details-container h1{
+  color: rgb(150, 136, 136);
+}
+.details-container p{
+  color: rgb(150, 136, 136);
+}
+  .close-btn{
+    width: 2rem;
+    margin-left: 25rem;
+    margin-top: -4rem;
+  }
+  .close{
+    background: none;
+    border: none;
+  }
+  
+  .details-container p{
+    text-align: center;
+
+  }
+  .details-container h1{
+    text-align: center;
+  }
+
+  @media screen and (max-width :530px) {
+    .details-container{
+      width: 20rem;
+    }
+    .close-btn{
+      width: 2rem;
+      margin-left: 22rem;
+      margin-top: -4rem;
+    }
+  }
